@@ -9,13 +9,14 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'Oak National Academy', // Usually your GitHub org/user name.
   projectName: 'zero-rated', // Usually your repo name.
+  
   themeConfig: {
     navbar: {
       title: 'Zero-Rated',
-      logo: {
-        alt: 'Zero-Rate',
-        src: 'img/logo.svg',
-      },
+      // logo: {
+      //   alt: 'Zero-Rate',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         {
           to: 'docs/',
@@ -85,13 +86,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/oaknational/zero-rating/edit/master/',
+            'https://github.com/oaknational/zero-rated/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/oaknational/zero-rating/edit/master/blog/',
+            'https://github.com/oaknational/zero-rated/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
