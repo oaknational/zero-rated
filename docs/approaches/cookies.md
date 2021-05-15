@@ -1,6 +1,6 @@
 ---
 title: Cookies
-slug: /cookies
+slug: /approaches/cookies
 ---
 
 To be zero-rated, your service must not drop third party cookies, even to store the approval of the end user. Often, cookie widgets pop up, ask the visitor for consent to set cookies, and then set a cookie to store the user's preferences.

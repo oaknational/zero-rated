@@ -1,6 +1,6 @@
 ---
 title: Self-host fonts and scripts
-slug: /approaches/self-hosted-fonts-and-scripts
+slug: /approaches/self-host-fonts-and-scripts
 ---
 
 A common practice is to use externally-hosted fonts and Javascript. This often has some benefits in that if a visitor has been to another website that also uses those same fonts or scripts then they are served from the browser cache, and it makes their visit feel faster.
@@ -11,7 +11,7 @@ If you are using Google Fonts you could:
 
 * If you use Webpack, use the open source Fontsource project and bundle these assets. Beware though, Fontsource does not include support for older browsers, so this was not appropriate for Oak
 * Get the Google Fonts assets, make a /fonts folder in your public directory and change your CSS so that it references them. This is the approach that we took for Oak so that we supported older browsers.
-* [Proxy](/docs/proxying) Google Fonts with a Cloudflare Worker. We decided it was better to self-host.
+* [Proxy](/docs/approaches/proxying) Google Fonts with a Cloudflare Worker. We decided it was better to self-host.
 
 If you are using hosted Javascript, by, for instance Google's [Hosted Libraries](https://developers.google.com/speed/libraries) service:
 

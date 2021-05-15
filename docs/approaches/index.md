@@ -13,7 +13,7 @@ This section includes notes on the following approaches:
 * [Adding first-party analytics](/docs/approaches/first-party-analytics)
 * [Changing video provider](/docs/approaches/video)
 * [Proxying requests via Cloudflare workers](/docs/approaches/proxying)
-* [Rebuilding components](/docs/rebuild-third-party-tools)
+* [Rebuilding components](/docs/approaches/rebuild-third-party-tools)
 * [Self-hosting fonts and scripts](/docs/approaches/self-host-fonts-and-scripts)
 * [Self-hosting images from third parties](/docs/approaches/self-host-images)
 * [Choosing self-hosted alternatives](/docs/approaches/self-hosted-alternatives)

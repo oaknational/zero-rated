@@ -11,4 +11,4 @@ If this is the case, you have a few options:
 * Delete the references to these external images
 * Proxy these images in your front end or server-rendered code by checking if they are external, then making a request to a Cloudflare Worker or similar. Eg. change https://example.com/myimage.jpg to https://yourexamplewebsite.com/image-proxy?url=https%3A%2F%2Fexample.com%2Fmyimage.jpg
 
-Please read the [Proxying](/docs/proxying) page to understand how you might achieve this.
+Please read the [Proxying](/docs/approaches/proxying) page to understand how you might achieve this.
