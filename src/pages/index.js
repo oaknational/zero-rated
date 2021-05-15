@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout
       description="How to make it so your visitors aren't charged for data when they're on a phone.">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header style={{margin: "auto", textAlign: "center", marginTop:"8em"}}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
