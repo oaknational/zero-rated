@@ -566,6 +566,15 @@
   color: #371E2D;
 }
 
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color: #371E2D;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px)  {
   body {
     font-size: 1.25em;
@@ -578,13 +587,8 @@
 @media only screen and (min-width: 1600px) {
   body {
     font-size: 1.333em;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
   }
   body .menu {
     font-size: 1rem;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    color: #371E2D;
   }
 }
