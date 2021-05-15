@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="How to make it so your visitors aren't charged for data when they're on a phone.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -68,7 +68,7 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
@@ -77,19 +77,13 @@ export default function Home() {
           </div>
         </div>
       </header>
-      {/* <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-      </main> */}
+      <main>
+      <div className="container" style={{paddingTop: "8em", paddingBottom: "8em", maxWidth: "36em", margin:"auto"}}>
+        <p>During the Covid pandemic, in early 2021, <a href="https://thenational.academy">Oak National Academy</a> became one of a handful of websites which were "zero-rated" by mobile phone network operators. This meant that visitors to the website were not charged for accessing the content of the website, or watching our videos.</p>
+        <p>To help others who may wish to achieve zero-rating in future, we have written this guide. It is aimed at a technical audience. To gain value from this documentation, you should be someone who understands web technologies, maintains and/or runs your website.</p>
+      </div>
+      </main>
+      
     </Layout>
   );
 }

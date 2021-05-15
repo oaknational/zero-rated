@@ -1,5 +1,6 @@
 ---
 title: Create a Page
+slug: /how-to-edit-this-site/create-a-page
 ---
 
 Any React or Markdown file created under `src/pages` directory is converted into a website page:

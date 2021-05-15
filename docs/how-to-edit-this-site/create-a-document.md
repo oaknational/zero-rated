@@ -1,5 +1,6 @@
 ---
 title: Create a Document
+slug: /how-to-edit-this-site
 ---
 
 Documents are pages with a **sidebar**, a **previous/next navigation** and many other useful features.

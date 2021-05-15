@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Zero-Rate your website',
-  tagline: 'How to make it so your visitors aren\'t charged for data when they\'re on a phone',
-  url: 'https://zero.thenational.academy',
+  title: 'Zero-Rating your website',
+  tagline: 'How to make it so your visitors aren\'t charged for data when they\'re on a phone.',
+  url: 'https://zerorating.thenational.academy',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -45,11 +45,11 @@ module.exports = {
         //   ],
         // },
         {
-          title: 'A project by',
+          title: 'Documentation provided by',
           items: [
             {
               label: 'Oak National Academy',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://thenational.academy',
             },
             // {
             //   label: 'Discord',

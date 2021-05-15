@@ -14,8 +14,9 @@ We've constructed this guide to gather what we learnt so that other non-profit s
 
 ## Contributors
 
-Stef Lewandowski
+This documentation was produced by [Stef Lewandowski](https://stef.io) with input and oversight from [John Roberts](https://johnroberts.me). 
 
-John Roberts
 
-Ian Kynnersley
+## Source code
+
+[The source code to this documentation website](https://github.com/oaknational/zero-rating) is available on Github.
