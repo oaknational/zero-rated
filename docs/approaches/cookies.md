@@ -48,7 +48,6 @@ Then, copy the code from the worker files in the example folder in this reposito
 You should now be able to embed the Confirmic widget on your website by replacing "confirmic.com" with your own domain.
 
 ```
-
 <script src="https://config.yourdomain.example/config.js?id=prj:change-this-to-your-project-id" crossorigin charset="utf-8"></script>
 <script src="https://consent-manager.yourdomain.example/embed.js" crossorigin charset="utf-8"></script>
 ```
