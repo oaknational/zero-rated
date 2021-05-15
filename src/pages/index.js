@@ -11,7 +11,8 @@ export default function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      description="How to make it so your visitors aren't charged for data when they're on a phone.">
+      title="A how-to guide to zero-rate your website"
+      description="How to make it so your visitors aren't charged for data when they're on a phone. A guide based on zero-rating the Oak National Academy website.">
       <header style={{margin: "auto", textAlign: "center", marginTop:"8em"}}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

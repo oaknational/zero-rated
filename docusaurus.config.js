@@ -24,7 +24,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        {href: 'https://thenational.academy', label: 'Home', position: 'left'},
         {
           href: 'https://github.com/oaknational/zero-rating',
           label: 'GitHub',
@@ -35,15 +35,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Getting Started',
-        //       to: 'docs/',
-        //     },
-        //   ],
-        // },
+       
         {
           title: 'Documentation provided by',
           items: [
@@ -51,29 +43,9 @@ module.exports = {
               label: 'Oak National Academy',
               href: 'https://thenational.academy',
             },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: 'https://twitter.com/docusaurus',
-            // },
+            
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Oak National Academy`,
     },
@@ -84,13 +56,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/oaknational/zero-rating/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/oaknational/zero-rating/edit/main/blog/',
         },

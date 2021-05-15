@@ -22,6 +22,7 @@ module.exports = {
       items: [
         'approaches/index',
         'approaches/removal',
+        'approaches/bundle-third-party-scripts',
         'approaches/first-party-analytics',
         'approaches/cookies',
         'approaches/self-host-fonts-and-scripts',
