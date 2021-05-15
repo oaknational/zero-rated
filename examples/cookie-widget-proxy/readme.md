@@ -16,8 +16,8 @@ Then create three workers - called "consent-manager", "config" and "apipub" and 
 
 ```
 config.yourdomain.example/* => config
-apipub.yourdomain.example/* => config
-consent-manager.yourdomain.example/* => config
+apipub.yourdomain.example/* => apipub
+consent-manager.yourdomain.example/* => consent-manager
 ```
 
 (Replacing yourdomain.example with your own top level domain).
