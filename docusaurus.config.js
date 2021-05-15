@@ -2,21 +2,21 @@
 module.exports = {
   title: 'Zero-Rating your website',
   tagline: 'How to make it so your visitors aren\'t charged for data when they\'re on a phone.',
-  url: 'https://zerorating.thenational.academy',
+  url: 'https://thenational.academy',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Oak National Academy', // Usually your GitHub org/user name.
-  projectName: 'zerorating', // Usually your repo name.
+  projectName: 'zero-rating', // Usually your repo name.
   
   themeConfig: {
     navbar: {
       title: 'Zero-Rating',
-      // logo: {
-      //   alt: 'Zero-Rate',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'Oak',
+        src: 'img/acorn.svg',
+      },
       items: [
         {
           to: 'docs/',

@@ -21,7 +21,7 @@ To proxy this example above, you could use some code like this in a worker. This
 // Forward the entire event to Litix
 async function handleRequest(request) {
   const url = new URL(request.url)
-  url.hostname = "analytics.com"
+  url.hostname = "analytics.example"
   return await fetch(url.toString(), request)
 }
 
