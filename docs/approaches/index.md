@@ -18,6 +18,6 @@ This section includes notes on the following approaches:
 * [Self-hosting images from third parties](/docs/approaches/self-host-images)
 * [Choosing self-hosted alternatives](/docs/approaches/self-hosted-alternatives)
 * [Using an image-resizing service](/docs/approaches/use-an-image-resizing-service)
-* [Working with Google docs and slides](/docs/approaches/google-docs-and-sheets)
+* [Working with Google docs and slides](/docs/approaches/google-docs)
 
 We welcome contributions for other approaches which could appear here. To contribute a new approach, [fork this respository and make a pull request on Github](https://github.com/oaknational/zero-rating).
