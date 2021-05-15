@@ -72,7 +72,7 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Overview
+              Read our guide to zero-rating
             </Link>
           </div>
         </div>
