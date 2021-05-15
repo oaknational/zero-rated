@@ -21,7 +21,7 @@ Then, we added URLs for these PDFs into our database so that in our application 
 
 At this point you could stop and embed the PDF on the page if you do not care too much about user experience. For Oak, we wanted to provide a user interface for students so that they could play the slides, and also to provide a (relatively more) accessible HTML version of these slides.
 
-To achieve this you could use PDFKit or one of the other libraries that sit on top of it. We chose one that adapts PDFKit for use in React. 
+To achieve this you could use [PDFKit](https://pdfkit.org/) or one of the other libraries that sit on top of it. We chose one that adapts PDFKit for use in React. 
 
 The end result is an attractive embed of the Google Slides document on the screen, rendered using a Canvas (this is not ideal because you lose image alt tags) but the HTML content of the PDF is converted into invisible text.
 
