@@ -18,3 +18,5 @@ In many cases the costs here may be prohibitive. Youtube, for instance, provides
 For Oak National Academy we evaluated various providers and picked [Mux.com](https://mux.com) as our video provider. We then worked with them to be able to serve video content on video.thenational.academy. This is significantly more challenging than it sounds, because Mux uses many CDNs and has dynamic systems where DNS settings could change without warning. Mobile Network Operators were eventually happy with the setup that we reached, but it took several months.
 
 The end result for Oak was that all of our video assets are held in Mux and delivered via our own subdomains (Mux also provide an analytics service which we used on another subdomain).
+
+In July 2022, Mux released a [custom domains feature](https://www.mux.com/blog/introducing-custom-domains-beta) that allows proxying of video for other customers.
